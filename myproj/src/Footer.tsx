@@ -3,5 +3,5 @@ type footerProps = {
 };
 
 export const Footer: React.FC<footerProps> = (props) => (
-  <footer>Footer {props.copyright} </footer>
+  <footer>{props.copyright}</footer>
 );
