@@ -1,7 +1,9 @@
+import './Footer.css';
+
 type footerProps = {
   copyright: string;
 };
 
 export const Footer: React.FC<footerProps> = (props) => (
-  <footer>{props.copyright}</footer>
+  <footer className='footer'>{props.copyright}</footer>
 );
