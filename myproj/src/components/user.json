@@ -1,0 +1,15 @@
+{
+  "firstName": "Angelina",
+  "lastName": "Jolie",
+  "address": {
+    "city": "Los Angeles",
+    "USState": "California",
+    "country": "USA"
+  },
+  "phoneNumbers": [
+    "503-652-2929",
+    "753-436-7413"
+  ],
+  "dayEvent": "Why is Angelina Jolie in Ukraine? Angelina Jolie has been spotted during a visit to Lviv, Ukraine. The actor, who is a special envoy for the UN and has been doing humanitarian work for years, was seen in the city getting coffee this week.",
+  "photo": "https://static.ukrinform.com/photos/2022_04/thumb_files/630_360_1651328229-475.jpg"
+}

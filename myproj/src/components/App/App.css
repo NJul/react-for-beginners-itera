@@ -1,0 +1,52 @@
+.flex-parent {
+  display: flex;
+}
+
+.flex-child {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.flex-justify-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-card {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.user-photo {
+  min-width: 300px;
+}
+
+.title {
+  margin: 0;
+  font-family: 'PT Serif', serif;
+  font-size: 2.6rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .flex-parent {
+    flex-wrap: wrap;
+  }
+
+  .flex-child {
+    width: auto;
+  }
+
+  .user-photo {
+    min-width: auto;
+  }
+}
